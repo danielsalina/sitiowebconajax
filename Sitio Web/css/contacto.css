@@ -1,0 +1,45 @@
+.container__form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 80%;
+}
+
+.form__label{
+    padding: 10px 0;
+}
+
+.form__input{
+    padding: 10px;
+}
+
+.form__textarea{
+    padding: 10px;
+    margin-bottom: 10px;
+    resize: vertical;
+}
+
+.btn-submit{
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.btn-submit:hover{
+    background: #ccc;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .form{
+        margin: auto;
+        max-width: 700px;
+    }
+}
