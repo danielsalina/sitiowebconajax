@@ -1,0 +1,46 @@
+.card-projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-protfolio{
+    width: 100%;
+    height: 100%;
+    max-width: 70%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.img-protfolio:hover{
+    transform: scale(1.2, 1.1);
+    transition: 1.5s;
+    cursor: pointer;
+}
+
+.a-btn {
+    padding: 20px 0;
+    color: #fff;
+    font-size: 18px;
+}
+
+.a-btn:hover {
+    color: #f7de1ed9;
+}
+
+hr {
+    color: #fff;
+    width: 75%;
+}
+   
+@media only screen and (min-width: 768px) {
+    .container-portfolio{
+        display: flex;
+    }
+
+    hr {
+        display: none;
+    }
+}
